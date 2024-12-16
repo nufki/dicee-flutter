@@ -29,3 +29,12 @@ We’re going to make a Las Vegas dice app. You can make the die roll at the pre
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
 ![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+
+
+# Deploy the app on IOS (native device)
+1. Initial setup: run: `open ios/Runner.xcworkspace`, set team (yourself probably)
+2. Then run this command below running the build above manually on xcode runs it in debug mode only
+````
+flutter run --release  
+````
+This command builds and runs your Flutter app on a connected device (physical device or emulator/simulator) in release mode.

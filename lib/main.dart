@@ -6,10 +6,10 @@ void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.lightBlue,
         appBar: AppBar(
-          title: Text('Dicee'),
-          backgroundColor: Colors.red,
+          title: Text('Role the dice'),
+          backgroundColor: Colors.blueGrey.shade400,
         ),
         body: DicePage(),
       ),
